@@ -7,24 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A8B8F2C1DE92F1200BC1FF6 /* RememberViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B8F2B1DE92F1200BC1FF6 /* RememberViewTests.swift */; };
+		1A8B8F341DE92F5900BC1FF6 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B8F331DE92F5900BC1FF6 /* Meal.swift */; };
+		1A8B8F351DE92F5900BC1FF6 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B8F331DE92F5900BC1FF6 /* Meal.swift */; };
+		1A8B8F371DE93B0000BC1FF6 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B8F361DE93B0000BC1FF6 /* MealTableViewCell.swift */; };
+		1A8B8F381DE93B0000BC1FF6 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B8F361DE93B0000BC1FF6 /* MealTableViewCell.swift */; };
+		1A8B8F3A1DE94C7C00BC1FF6 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B8F391DE94C7C00BC1FF6 /* MealTableViewController.swift */; };
 		A28CFCE31DE7C66C000BFC86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28CFCE21DE7C66C000BFC86 /* AppDelegate.swift */; };
-		A28CFCE51DE7C66C000BFC86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28CFCE41DE7C66C000BFC86 /* ViewController.swift */; };
+		A28CFCE51DE7C66C000BFC86 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28CFCE41DE7C66C000BFC86 /* MealViewController.swift */; };
 		A28CFCE81DE7C66D000BFC86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A28CFCE61DE7C66D000BFC86 /* Main.storyboard */; };
 		A28CFCEA1DE7C66D000BFC86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A28CFCE91DE7C66D000BFC86 /* Assets.xcassets */; };
 		A28CFCED1DE7C66D000BFC86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A28CFCEB1DE7C66D000BFC86 /* LaunchScreen.storyboard */; };
+		A28CFCF51DE83A1E000BFC86 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28CFCF41DE83A1E000BFC86 /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		1A8B8F2E1DE92F1200BC1FF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A28CFCD71DE7C66C000BFC86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A28CFCDE1DE7C66C000BFC86;
+			remoteInfo = RememberView;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		1A8B8F291DE92F1100BC1FF6 /* RememberViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RememberViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A8B8F2B1DE92F1200BC1FF6 /* RememberViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RememberViewTests.swift; sourceTree = "<group>"; };
+		1A8B8F2D1DE92F1200BC1FF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A8B8F331DE92F5900BC1FF6 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		1A8B8F361DE93B0000BC1FF6 /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
+		1A8B8F391DE94C7C00BC1FF6 /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
 		A28CFCDF1DE7C66C000BFC86 /* RememberView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RememberView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A28CFCE21DE7C66C000BFC86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A28CFCE41DE7C66C000BFC86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A28CFCE41DE7C66C000BFC86 /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
 		A28CFCE71DE7C66D000BFC86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A28CFCE91DE7C66D000BFC86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A28CFCEC1DE7C66D000BFC86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A28CFCEE1DE7C66D000BFC86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A28CFCF41DE83A1E000BFC86 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1A8B8F261DE92F1100BC1FF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A28CFCDC1DE7C66C000BFC86 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -35,10 +66,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A8B8F2A1DE92F1200BC1FF6 /* RememberViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A8B8F2B1DE92F1200BC1FF6 /* RememberViewTests.swift */,
+				1A8B8F2D1DE92F1200BC1FF6 /* Info.plist */,
+			);
+			path = RememberViewTests;
+			sourceTree = "<group>";
+		};
 		A28CFCD61DE7C66C000BFC86 = {
 			isa = PBXGroup;
 			children = (
 				A28CFCE11DE7C66C000BFC86 /* RememberView */,
+				1A8B8F2A1DE92F1200BC1FF6 /* RememberViewTests */,
 				A28CFCE01DE7C66C000BFC86 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				A28CFCDF1DE7C66C000BFC86 /* RememberView.app */,
+				1A8B8F291DE92F1100BC1FF6 /* RememberViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,11 +97,15 @@
 			isa = PBXGroup;
 			children = (
 				A28CFCE21DE7C66C000BFC86 /* AppDelegate.swift */,
-				A28CFCE41DE7C66C000BFC86 /* ViewController.swift */,
+				A28CFCE41DE7C66C000BFC86 /* MealViewController.swift */,
 				A28CFCE61DE7C66D000BFC86 /* Main.storyboard */,
 				A28CFCE91DE7C66D000BFC86 /* Assets.xcassets */,
 				A28CFCEB1DE7C66D000BFC86 /* LaunchScreen.storyboard */,
 				A28CFCEE1DE7C66D000BFC86 /* Info.plist */,
+				A28CFCF41DE83A1E000BFC86 /* RatingControl.swift */,
+				1A8B8F331DE92F5900BC1FF6 /* Meal.swift */,
+				1A8B8F361DE93B0000BC1FF6 /* MealTableViewCell.swift */,
+				1A8B8F391DE94C7C00BC1FF6 /* MealTableViewController.swift */,
 			);
 			path = RememberView;
 			sourceTree = "<group>";
@@ -67,6 +113,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		1A8B8F281DE92F1100BC1FF6 /* RememberViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A8B8F301DE92F1200BC1FF6 /* Build configuration list for PBXNativeTarget "RememberViewTests" */;
+			buildPhases = (
+				1A8B8F251DE92F1100BC1FF6 /* Sources */,
+				1A8B8F261DE92F1100BC1FF6 /* Frameworks */,
+				1A8B8F271DE92F1100BC1FF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A8B8F2F1DE92F1200BC1FF6 /* PBXTargetDependency */,
+			);
+			name = RememberViewTests;
+			productName = RememberViewTests;
+			productReference = 1A8B8F291DE92F1100BC1FF6 /* RememberViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		A28CFCDE1DE7C66C000BFC86 /* RememberView */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A28CFCF11DE7C66D000BFC86 /* Build configuration list for PBXNativeTarget "RememberView" */;
@@ -94,6 +158,11 @@
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = Kelly;
 				TargetAttributes = {
+					1A8B8F281DE92F1100BC1FF6 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A28CFCDE1DE7C66C000BFC86;
+					};
 					A28CFCDE1DE7C66C000BFC86 = {
 						CreatedOnToolsVersion = 8.1;
 						ProvisioningStyle = Automatic;
@@ -114,11 +183,19 @@
 			projectRoot = "";
 			targets = (
 				A28CFCDE1DE7C66C000BFC86 /* RememberView */,
+				1A8B8F281DE92F1100BC1FF6 /* RememberViewTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1A8B8F271DE92F1100BC1FF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A28CFCDD1DE7C66C000BFC86 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -132,16 +209,38 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1A8B8F251DE92F1100BC1FF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A8B8F2C1DE92F1200BC1FF6 /* RememberViewTests.swift in Sources */,
+				1A8B8F351DE92F5900BC1FF6 /* Meal.swift in Sources */,
+				1A8B8F381DE93B0000BC1FF6 /* MealTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A28CFCDB1DE7C66C000BFC86 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A28CFCE51DE7C66C000BFC86 /* ViewController.swift in Sources */,
+				A28CFCE51DE7C66C000BFC86 /* MealViewController.swift in Sources */,
+				1A8B8F341DE92F5900BC1FF6 /* Meal.swift in Sources */,
+				A28CFCF51DE83A1E000BFC86 /* RatingControl.swift in Sources */,
 				A28CFCE31DE7C66C000BFC86 /* AppDelegate.swift in Sources */,
+				1A8B8F3A1DE94C7C00BC1FF6 /* MealTableViewController.swift in Sources */,
+				1A8B8F371DE93B0000BC1FF6 /* MealTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A8B8F2F1DE92F1200BC1FF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A28CFCDE1DE7C66C000BFC86 /* RememberView */;
+			targetProxy = 1A8B8F2E1DE92F1200BC1FF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A28CFCE61DE7C66D000BFC86 /* Main.storyboard */ = {
@@ -163,6 +262,32 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1A8B8F311DE92F1200BC1FF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RememberViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pegasusroe.RememberViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RememberView.app/RememberView";
+			};
+			name = Debug;
+		};
+		1A8B8F321DE92F1200BC1FF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RememberViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pegasusroe.RememberViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RememberView.app/RememberView";
+			};
+			name = Release;
+		};
 		A28CFCEF1DE7C66D000BFC86 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -283,6 +408,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1A8B8F301DE92F1200BC1FF6 /* Build configuration list for PBXNativeTarget "RememberViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A8B8F311DE92F1200BC1FF6 /* Debug */,
+				1A8B8F321DE92F1200BC1FF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		A28CFCDA1DE7C66C000BFC86 /* Build configuration list for PBXProject "RememberView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -299,6 +432,7 @@
 				A28CFCF31DE7C66D000BFC86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
